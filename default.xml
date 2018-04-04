@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="github"
+           fetch="../.."
+           alias="origin" />
+           
+  <default remote="origin" revision="master"/>
+  <project path="src/libfunctionality" name="OSVR/libfunctionality" />
+  <project path="src/jsoncpp" name="vrpn/jsoncpp" />
+  <project path="src/hidapi" name="signal11/hidapi" />
+  <project path="src/libusb" name="libusb/libusb" />
+  <project path="src/OSVR-Core" name="OSVR/OSVR-Core" sync-s="true" /> <!-- need submodules -->
+  <project path="src/android_sensor_tracker" name="OSVR/OSVR-Android-Plugins" />
+  <project path="src/OSVR-RenderManager" name="sensics/OSVR-RenderManager" />
+  <project path="src/OSVR-Unity-Rendering" name="OSVR/OSVR-Unity-Rendering" revision="d3d_capi" />
+  
+</manifest>
