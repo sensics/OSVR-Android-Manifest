@@ -6,6 +6,8 @@
            
   <default remote="github" revision="master"/>
 
+  <project path="src/Boost-for-Android" name="sensics/Boost-for-Android" revision="ndk_16" />
+
   <project path="src/libfunctionality" name="OSVR/libfunctionality" />
   <project path="src/jsoncpp" name="vrpn/jsoncpp" />
   <project path="src/hidapi" name="signal11/hidapi" />
