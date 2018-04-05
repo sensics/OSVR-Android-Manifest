@@ -17,6 +17,7 @@
   <project path="src/OSVR-Core/vendor/vrpn/submodules/hidapi" name="vrpn/hidapi" revision="android-24-fixes" />
   <project path="src/OSVR-Core" name="OSVR/OSVR-Core" sync-s="true" /> <!-- need submodules -->
   <project path="src/android_sensor_tracker" name="OSVR/OSVR-Android-Plugins" />
+  <project path="src/OSVR-RenderManager" name="sensics/OSVR-RenderManager" revision="android-multiple-defn-fix" />
   <!-- revision is for this PR https://github.com/vrpn/vrpn/pull/206 -->
   <project path="src/OSVR-RenderManager/vendor/vrpn" name="vrpn/vrpn" revision="70e0388007dc23ae3db9fa58df47fc0701d49943" />
 
