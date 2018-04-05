@@ -10,11 +10,14 @@
 
   <project path="src/libfunctionality" name="OSVR/libfunctionality" />
   <project path="src/jsoncpp" name="vrpn/jsoncpp" />
-  <project path="src/hidapi" name="signal11/hidapi" />
   <project path="src/libusb" name="libusb/libusb" />
+  <!-- revision is for this PR https://github.com/vrpn/vrpn/pull/206 -->
+  <project path="src/OSVR-Core/vendor/vrpn" name="vrpn/vrpn" revision="70e0388007dc23ae3db9fa58df47fc0701d49943" />
+
+  <project path="src/OSVR-Core/vendor/vrpn/submodules/hidapi" name="vrpn/hidapi" revision="android-24-fixes" />
   <project path="src/OSVR-Core" name="OSVR/OSVR-Core" sync-s="true" /> <!-- need submodules -->
   <project path="src/android_sensor_tracker" name="OSVR/OSVR-Android-Plugins" />
   <project path="src/OSVR-RenderManager" name="sensics/OSVR-RenderManager" />
   <project path="src/OSVR-Unity-Rendering" name="OSVR/OSVR-Unity-Rendering" revision="d3d_capi" />
-  
+
 </manifest>
