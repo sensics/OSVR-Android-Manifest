@@ -5,6 +5,9 @@
            alias="origin" />
            
   <default remote="github" revision="master"/>
+  <project path="buildscripts" name="sensics/OSVR-Android-BuildScripts">
+    <linkfile src="do-build.sh" dest="do-build" />
+  </project>
 
   <project path="src/Boost-for-Android" name="sensics/Boost-for-Android" revision="ndk_16" />
 
